@@ -3,43 +3,48 @@
 <html>
 	<head>
 		<title>Hello, World!</title>
+		<link href="./style.css" rel="stylesheet" />
 	</head>
 	<body>
-		<h1>Welcome to "Hello, World!" page!</h1>
-		<aside>
-			<h2>What do you think about "Hello, World!"?</h2>
-			<h3>Share your thoughts about "Hello, World!" programs</h3>
-			<form>
-				<input type="text" name="user_name" placeholder="Your name"/>
-				<textarea rows="4" name="user_comment">Your thoughts</textarea>
-				<input type="submit" value="Submit" />
-			</form>
-		</aside>
-		<article>
-			<h2>All about "Hello, World!" programs</h2>
-			<h3>The very first program of many programmers in the world</h3>
-			<p>
-			A "Hello, World!" program is a computer program that outputs or displays "Hello, World!" to a user.
-			Being a very simple program in most programming languages, it is often used to illustrate the basic syntax
-			of a programming language for a working program, and as such is often the very first program people write
-			</p>
-			<img src="http://thisismyworld.pe.hu/wp-content/uploads/2016/11/hello-world-banner.jpg" width="320"/>
-			<h4>Variations</h4>
-			<ol>
-				<li>the presence or absence of the comma and exclamation mark</li>
-				<li>the capitalization of the 'H', both the 'H' and the 'W', or neither</li>
-				<li>some languages are forced to implement different forms, such as "HELLO WORLD"</li>
-				<li>for devices such as microcontrollers, "Hello, World" may thus be substituted with a blinking LED</li>
-			</ol>
-			<h4>Some facts</h4>
-			<ul>
-				<li>A "Hello, World!" program is traditionally used to introduce novice programmers to a programming language</li>
-				<li>"Hello, world!" is also traditionally used in a sanity test to make sure that a computer language is correctly installed, and that the operator understands how to use it</li>
-				<li>The tradition of using the phrase "Hello, world!" as a test message was influenced by an example program in the seminal book <a href="https://en.wikipedia.org/wiki/The_C_Programming_Language_(book)">The C Programming Language</a></li>
-			</ul>
-		</article>
-		<footer>
-			<p>Developed by NF</p>
-		</footer>
+		<div id="container">
+			<header>
+				<h1>Welcome to "Hello, World!" page!</h1>
+			</header>
+			<aside>
+				<h2>What do you think about "Hello, World!"?</h2>
+				<h3>Share your thoughts about "Hello, World!" programs</h3>
+				<form>
+					<input type="text" name="user_name" placeholder="Your name" />
+					<textarea rows="4" name="user_comment" placeholder="Your thoughts"></textarea>
+					<input type="submit" value="Submit" />
+				</form>
+			</aside>
+			<article>
+				<h2>All about "Hello, World!" programs</h2>
+				<h3>The very first program of many programmers in the world</h3>
+				<p>
+					A "Hello, World!" program is a computer program that outputs or displays "Hello, World!" to a user.
+					Being a very simple program in most programming languages, it is often used to illustrate the basic syntax
+					of a programming language for a working program, and as such is often the very first program people write
+				</p>
+				<img src="http://thisismyworld.pe.hu/wp-content/uploads/2016/11/hello-world-banner.jpg" width="320" />
+				<h4>Variations</h4>
+				<ol>
+					<li>the presence or absence of the comma and exclamation mark</li>
+					<li>the capitalization of the 'H', both the 'H' and the 'W', or neither</li>
+					<li>some languages are forced to implement different forms, such as "HELLO WORLD"</li>
+					<li>for devices such as microcontrollers, "Hello, World" may thus be substituted with a blinking LED</li>
+				</ol>
+				<h4>Some facts</h4>
+				<ul>
+					<li>A "Hello, World!" program is traditionally used to introduce novice programmers to a programming language</li>
+					<li>"Hello, world!" is also traditionally used in a sanity test to make sure that a computer language is correctly installed, and that the operator understands how to use it</li>
+					<li>The tradition of using the phrase "Hello, world!" as a test message was influenced by an example program in the seminal book <a href="https://en.wikipedia.org/wiki/The_C_Programming_Language_(book)">The C Programming Language</a></li>
+				</ul>
+			</article>
+			<footer>
+				<p>Developed by NF</p>
+			</footer>
+		</div>
 	</body>
 </html>

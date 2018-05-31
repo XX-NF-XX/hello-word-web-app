@@ -1,0 +1,25 @@
+{
+  "name": "hello-word-web-app",
+  "version": "1.0.0",
+  "description": "Just messing around with VS and github",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XX-NF-XX/hello-world-web-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XX-NF-XX/hello-world-web-app/issues"
+  },
+  "homepage": "https://github.com/XX-NF-XX/hello-world-web-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "sqlite3": "^4.0.0"
+  }
+}

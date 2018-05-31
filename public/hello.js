@@ -6,10 +6,10 @@ userName.onchange = updateHeader;
 
 function updateHeader() {
 	if (isValid(userName.value)) {
-		headerTitle.innerText = "Hello, " + userName.value + ". " + headerDefaultTitle;
+		headerTitle.innerText = "Hello, " + userName.value + ". " + headerDefaultTitleText;
 	}
 	else {
-		headerTitle.innerText = headerDefaultTitle;
+		headerTitle.innerText = headerDefaultTitleText;
 	}
 }
 

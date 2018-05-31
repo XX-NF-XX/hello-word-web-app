@@ -6,3 +6,4 @@
 /.vs/config/applicationhost.config
 /.vs/hello-word-web-app/v15/.suo
 /.vs/VSWorkspaceState.json
+/node_modules

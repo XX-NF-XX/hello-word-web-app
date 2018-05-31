@@ -8,13 +8,13 @@
 	<body>
 		<div id="container">
 			<header>
-				<h1>Welcome to "Hello, World!" page!</h1>
+				<h1 id="header_title">Welcome to "Hello, World!" page!</h1>
 			</header>
 			<aside>
 				<h2>What do you think about "Hello, World!"?</h2>
 				<h3>Share your thoughts about "Hello, World!" programs</h3>
 				<form>
-					<input type="text" name="user_name" placeholder="Your name" />
+					<input type="text" name="user_name" id="user_name" placeholder="Your name" maxlength="24"/>
 					<textarea rows="4" name="user_comment" placeholder="Your thoughts"></textarea>
 					<input type="submit" value="Submit" />
 				</form>
@@ -46,5 +46,6 @@
 				<p>Developed by NF</p>
 			</footer>
 		</div>
+		<script src="hello.js"></script>
 	</body>
 </html>

@@ -4,20 +4,24 @@
 	<head>
 		<title>Hello, World!</title>
 		<link href="./style.css" rel="stylesheet" />
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+				integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+				crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<div id="container">
 			<header>
-				<h1 id="header_title">Welcome to "Hello, World!" page!</h1>
+				<h1 id="headerTitle">Welcome to "Hello, World!" page!</h1>
 			</header>
 			<aside>
 				<h2>What do you think about "Hello, World!"?</h2>
 				<h3>Share your thoughts about "Hello, World!" programs</h3>
-				<form>
-					<input type="text" name="user_name" id="user_name" placeholder="Your name" maxlength="24"/>
-					<textarea rows="4" name="user_comment" placeholder="Your thoughts"></textarea>
+				<form action="/comments" method="post">
+					<input type="text" name="userName" id="userName" placeholder="Your name" maxlength="24"/>
+					<textarea rows="4" name="userComment" placeholder="Your thoughts"></textarea>
 					<input type="submit" value="Submit" />
 				</form>
+				<div id="comments"></div>
 			</aside>
 			<article>
 				<h2>All about "Hello, World!" programs</h2>

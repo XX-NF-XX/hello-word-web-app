@@ -1,8 +1,8 @@
 
 var headerTitle = document.getElementById("header_title");
-var headerDefaultTitle = headerTitle.innerText;
+var headerDefaultTitleText = headerTitle.innerText;
 var userName = document.getElementById("user_name");
-userName.onchange = function () { updateHeader() };
+userName.onchange = updateHeader;
 
 function updateHeader() {
 	if (isValid(userName.value)) {
